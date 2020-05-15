@@ -1,0 +1,103 @@
+.a{
+    color:black;
+    position: relative;
+    width: 80%;
+    padding: 50px;
+    text-align:center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:yellow;
+    margin-left: 100px;
+    font-size: 75px;
+    
+}
+.bod{
+    background-color:black;
+    color:black;
+}
+.navbar-brand{
+   padding-left: 10px;
+    
+}
+.work{
+    width:200px;
+    height:200px;
+}
+.me{
+    width:300px;
+    height:300px;
+    position:relative;
+    left: 35%;
+    border-width: 3px;
+    border: 10px solid transparent;
+    border-color: pink;
+    border-radius: 50%;
+}
+.logo{
+    position: absolute;
+    display: block;
+    margin-top: 3px;
+    width:150px;
+    height:100px;
+    border: 10px solid transparent;
+    border-width: 2px;
+    border-color: pink;
+}
+.aboutme{
+    position: relative;
+    left: 0%;
+    text-align: center;
+    letter-spacing: 3px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:yellow;
+    font-family: "baardfaant";
+}
+.LI{
+    position:static;
+    top:300px;
+    
+}
+.GH{
+    position:static;
+    top:300px;
+    
+}
+.GM{
+    position:static;
+    margin-right: 50px;
+    
+}
+
+@media only screen and (max-width: 980px) {
+    [class*="col-"] {
+        width: 100%;
+      }
+      .a{
+        font-size:50px;
+      }
+      
+   
+ }
+@media only screen and (min-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+      }
+      .a{
+        font-size:50px;
+   
+   
+
+}
+@media only screen and (min-width: 640px) {
+        [class*="col-"] {
+            width: 100%;
+          }
+          .a{
+            flex-direction: column;
+            
+          }
+          .col-md-4 {
+
+          flex-direction: column;
+        
+    }
+}
