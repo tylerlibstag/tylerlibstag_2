@@ -11,6 +11,7 @@
     font-size: 75px;
     
 }
+
 .bod{
     background-color:black;
     color:black;
@@ -22,6 +23,7 @@
 .work{
     width:200px;
     height:200px;
+    padding: 10px;
 }
 .me{
     width:300px;
@@ -32,6 +34,15 @@
     border: 10px solid transparent;
     border-color: pink;
     border-radius: 50%;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:gray;
+    color: white;
+    text-align: center;
 }
 .logo{
     position: absolute;
@@ -52,21 +63,7 @@
     -webkit-text-stroke-color:yellow;
     font-family: "baardfaant";
 }
-.LI{
-    position:static;
-    top:300px;
-    
-}
-.GH{
-    position:static;
-    top:300px;
-    
-}
-.GM{
-    position:static;
-    margin-right: 50px;
-    
-}
+
 
 @media only screen and (max-width: 980px) {
     [class*="col-"] {
@@ -97,8 +94,12 @@
             
           }
           .col-md-4 {
-
-          flex-direction: column;
-        
+          
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            
+        }
     }
 }
